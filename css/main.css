@@ -66,14 +66,13 @@ img {
   width: 75px;
   margin-top: -70px;
 }
-.sign-btn:hover {
-  color: orange;
-}
-.twitter-btn:hover {
-  color: orange;
-}
 
-a:hover {
+a:hover,
+.twitter-btn:hover,
+.sign-btn:hover {
   cursor: pointer;
   color: orange;
+  border: solid;
+  border-radius: 20px;
+  font-size: 15px;
 }
