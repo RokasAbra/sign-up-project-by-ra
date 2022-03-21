@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .sign-up-form {
-  color: darkcyan;
+  color: rgb(117, 64, 14);
   margin-bottom: 30px;
 }
 .input-box {
@@ -63,6 +63,17 @@ hr {
 }
 
 img {
-  width: 70px;
-  margin-top: -80px;
+  width: 75px;
+  margin-top: -70px;
+}
+.sign-btn:hover {
+  color: orange;
+}
+.twitter-btn:hover {
+  color: orange;
+}
+
+a:hover {
+  cursor: pointer;
+  color: orange;
 }
